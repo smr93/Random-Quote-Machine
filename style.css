@@ -1,0 +1,43 @@
+﻿body{
+  background: linear-gradient(90deg,#01eeee, #003AD9);
+    background-size: 1000% 1000%;
+   animation: BackgroundGradient 20s ease infinite;
+}
+@keyframes BackgroundGradient{
+    0%{background-position: 0 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0 50%;}
+}
+
+h1{
+  font-family : "Sansita";
+}
+.main-container {
+  margin-top : 30px;
+  width : 800px;
+  height : 300px;
+  margin : 0 auto;
+  color :#fff;
+  text-align : center;
+}
+#quote {
+  width : 500px;
+  height : 150px;
+  font-family : "Sansita";
+  font-size  : 25px;
+  background-color : rgba(0,0,0,0.3);
+  margin : 0 auto;
+  margin-top : 30px;
+  display : flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.btn {
+  margin-top : 20px;
+  margin-bottom : 20px;
+}
+
+a {
+  color :#000;
+}
